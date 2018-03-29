@@ -86,9 +86,6 @@ input {
     font-size: 3rem;
     text-align: center;
 }
-.strikethrough {
-    text-decoration: line-through;
-}
 .repeating {
     text-decoration: overline;
 }
