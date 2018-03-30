@@ -5,7 +5,7 @@ $(document).ready(function() {
     
     // hide all quotes, then display 1st quote
     $('.quotes').css({"display": "none"});
-    $("#quote-1").css({"display": "block"});
+    $("#quote-8").css({"display": "block"});
     
     // display selected quotes
     function displaySelectedQuotes(tag) {

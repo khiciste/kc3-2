@@ -12,12 +12,19 @@ html {
 
 /* FONTS */
 body           { font-family: 'Roboto', 'Open Sans', sans-serif; }
-.special-elite { font-family: 'Special Elite', monospace; }
+.cutive-mono   { font-family: 'Cutive Mono', monospace; } /* non-fiction */
 .marker        { font-family: 'Permanent Marker', 'Work Sans', sans-serif !important; }
-.cutive-mono   { font-family: 'Cutive Mono', monospace; }
+.volkhov       { font-family: 'Volkhov', serif; }
 .open-sans     { font-family: 'Open Sans', sans-serif; }
 .roboto        { font-family: 'Roboto', sans-serif; }
+.special-elite { font-family: 'Special Elite', monospace; } /* fiction */
 .work-sans     { font-family: 'Work Sans', sans-serif; }
+
+/* FONT STYLES */
+.bold          { font-weight: bold; }
+.CAPS          { text-transform: UPPERCASE; }
+.italics       { font-style: italic; }
+
 
 /* COLORS */
 .hangouts-green { background-color: #0f9d58; }
@@ -38,9 +45,6 @@ body           { font-family: 'Roboto', 'Open Sans', sans-serif; }
 }
 .hidden {
     display: none;
-}
-.bold {
-    font-weight: bold;
 }
 
 /* HEADER ================================================ */
@@ -258,12 +262,7 @@ h3 {
     font-family: 'Work Sans', 'Open Sans', sans-serif;
     font-size: 2rem;
 }
-.CAPS {
-    text-transform: UPPERCASE;
-}
-.italics {
-    font-style: italic;
-}
+
 a, a:hover {
     color: #0000ca;
     text-decoration: none;
@@ -334,11 +333,8 @@ main img {
     .review p, .review ul, .review.btn  { font-size: 2rem !important; }
 }
 
-.review .btn { font-weight: bold; }
-.review p, .review ul, .review.btn { 
-    font-size: 1.6rem !important;
-    font-weight: bold;
-}
+.review .btn           { font-weight: bold; }
+.review p, .review ul, .review.btn { font-size: 1.6rem !important; }
 
 .book-img {
     position: relative;
@@ -377,6 +373,24 @@ main img {
 .quote-author {
     display: block;
     padding-top: 10px;
+}
+.info {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-color: #616161;
+    border-radius: 50%;
+    float: right;
+}
+.info-i {
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 16px;
+    top: 1px;
+}
+.quotes-modal p {
+    font-size: 1.4rem !important;
 }
 
 /* FOOTER ================================================ */
