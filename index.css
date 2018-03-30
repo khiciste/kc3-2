@@ -375,12 +375,15 @@ main img {
     padding-top: 10px;
 }
 .info {
+    position: relative;
     display: inline-block;
     height: 24px;
     width: 24px;
     background-color: #616161;
     border-radius: 50%;
     float: right;
+    top: -5px;
+    left: 25px;
 }
 .info-i {
     display: inline-block;
@@ -390,7 +393,10 @@ main img {
     top: 1px;
 }
 .quotes-modal p {
-    font-size: 1.4rem !important;
+    font-size: 1.3rem !important;
+}
+.block {
+    display: block;
 }
 
 /* FOOTER ================================================ */
@@ -438,6 +444,8 @@ footer {
 }
 
 /*COLORS*/
+.TED-red     { color: RGB(230, 30, 30); }
+.deep-blue   { color: #0000ca; }
     /* spotify green */
     /*color: #1db954;*/
     /* koding's logo green */
@@ -450,6 +458,9 @@ footer {
     /*color: #00c853;*/
     /* starbucks green */
     /*color: #00704a;*/
+    /* deep blue */
+    /*color: #0000ca;*/
+    
 
 /* TESTS ===================================== */
 .row {

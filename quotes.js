@@ -1,11 +1,11 @@
 $(document).ready(function() {
     
-    var i = 1;
+    var i = 47;
     var totalQuotes = $('.quotes').length;
     
     // hide all quotes, then display 1st quote
     $('.quotes').css({"display": "none"});
-    $("#quote-8").css({"display": "block"});
+    $("#quote-" + i).css({"display": "block"});
     
     // display selected quotes
     function displaySelectedQuotes(tag) {
